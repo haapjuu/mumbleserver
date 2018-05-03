@@ -18,10 +18,7 @@ bash run.sh
 ```
 
 
-### **Tehtävässä käytetyt laittet**
 
-&nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
 <br/>
 <br/>
 
@@ -97,8 +94,13 @@ git config --global user.name "username"
 <br/>
 <br/>
 
+### **Tehtävässä käytetyt laittet**
 
+&nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
 
+<br/>
+<br/>
 
 **Lähteet:**
 
