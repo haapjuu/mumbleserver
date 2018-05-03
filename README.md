@@ -7,7 +7,10 @@ For this little assignment the idea was to make a salt state that installs and c
 
 ## **Instructions**
 
-1. Use the command "wget https://raw.githubusercontent.com/haapjuu/qwerty/master/run.sh" in terminal to get the bash script from this repository.
+1. Use the command in terminal to get the bash script from this repository.
+```
+wget https://raw.githubusercontent.com/haapjuu/qwerty/master/run.sh
+```
 
 2. Run the bash script with the command "bash run.sh".
 
