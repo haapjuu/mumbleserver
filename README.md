@@ -12,7 +12,10 @@ For this little assignment the idea was to make a salt state that installs and c
 wget https://raw.githubusercontent.com/haapjuu/qwerty/master/run.sh
 ```
 
-2. Run the bash script with the command "bash run.sh".
+2. Run the bash script.
+```
+bash run.sh
+```
 
 
 ### **Tehtävässä käytetyt laittet**
