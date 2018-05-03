@@ -16,12 +16,31 @@ For this little assignment the idea was to make a salt state that installs and c
 
 &nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
+<br/>
+<br/>
 
-<br/>
-<br/>
 <br/>
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
+<br/>
+Ensimmäiseksi ajettava "_run.sh_" skripti asentaa laitteelle Gitin ja salt-minionin. Seuraavaksi laitteelle kloonautuu Github repositoryni _"qwerty"_ joka sisältää loput komentojen suorittamisessa tarvittavat tiedostot. Ajettavasta koneesta tehdään itsensä mestari saltissa komennolla
+```
+echo 'master: localhost'|sudo tee /etc/salt/minion
+```
+Github repon cloonauksen jälkeen scripti bashaa kyseisen repon mukana tulleen "_highstate.sh_" skriptin, joka ajaa itse lopullisen salt staten komennolla
+```
+sudo salt-call --local --file-root srv/salt/ --pillar-root srv/pillar/  state.apply mumble
+```
+Vielä lopuksi ajetaan muutamia asetuksia järjestelmään ja Githubiin
+```
+setxkbmap fi
+sudo timedatectl set-timezone Europe/Helsinki
+git config --global credential.helper "cache --timeout=3600"
+git config --global push.default simple
+git config --global user.email "email"
+git config --global user.name "username"
+```
+
 
 
 **Lähteet:**
