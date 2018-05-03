@@ -16,7 +16,10 @@ For this little assignment the idea was to make a salt state that installs and c
 
 &nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/><br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
- 
+
+<br/>
+<br/>
+<br/>
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
 
