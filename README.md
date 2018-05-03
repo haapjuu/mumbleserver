@@ -14,8 +14,8 @@ Instructions
 
 Tehtävässä käytetyt laittet
 
-&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/>
-&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
+&nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
  
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
@@ -24,6 +24,6 @@ Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suuri
  
 Lähteet:
 
-&nbsp;&nbsp;&nbsp;https://github.com/terokarvinen/sirotin<br/>
-&nbsp;&nbsp;&nbsp;https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html<br/>
-&nbsp;&nbsp;&nbsp;https://github.com/saltstack/salt/blob/develop/doc/topics/tutorials/starting_states.rst<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/terokarvinen/sirotin<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;https://github.com/saltstack/salt/blob/develop/doc/topics/tutorials/starting_states.rst<br/>
