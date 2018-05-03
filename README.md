@@ -22,6 +22,8 @@ For this little assignment the idea was to make a salt state that installs and c
 <br/>
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
+
+
 **Lähteet:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;https://github.com/terokarvinen/sirotin<br/>
