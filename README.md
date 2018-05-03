@@ -63,8 +63,8 @@ Muutetaan "git push" komennon logiikkaa yksinkertaisemmaksi
 git config --global user.email "email"
 git config --global user.name "username"
 ```
-
-
+<br/>
+<br/>
 
 **Lähteet:**
 
