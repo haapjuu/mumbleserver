@@ -37,6 +37,37 @@ Github repon cloonauksen jälkeen scripti bashaa kyseisen repon mukana tulleen "
 ```
 sudo salt-call --local --file-root srv/salt/ --pillar-root srv/pillar/  state.apply mumble
 ```
+Itse salt state vielä tässä
+```
+mumble-server:
+  pkg.installed
+
+mumble:
+  pkg.installed
+
+/etc/mumble-server.ini:
+  file.managed:
+    - source: salt://mumble/mumble-server.ini
+
+ufw-enable-mumble-port:
+  cmd.run:
+    - name: 'sudo ufw allow 64738/tcp'
+
+ufw-enable:
+  cmd.run:
+    - name: 'sudo ufw enable'
+
+restart-ufw:
+  cmd.run:
+    - name: 'sudo systemctl restart ufw.service'
+
+restart-mumble-server:
+  cmd.run:
+    - name: 'sudo systemctl restart mumble-server.service'
+```
+Tila asentaa Mumble-server ja client paketit laitteelle muuntaen samalla mumble-serverin käyttämää mumble-server.ini asetustiedostoa hieman. Mumble palvelimelle avataan myös sen tarvitsema oletusportti 64738. Viimeiseksi tila kytkee vielä palomuurin päälle ja uudelleenkäynnistää palvelut, jotta niiden uudet asetukset tulevat varmasti voimaan.
+<br/>
+<br/>
 Vielä lopuksi ajetaan muutamia asetuksia järjestelmään ja Githubiin
 ```
 setxkbmap fi
@@ -65,6 +96,9 @@ git config --global user.name "username"
 ```
 <br/>
 <br/>
+
+
+
 
 **Lähteet:**
 
