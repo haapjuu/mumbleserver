@@ -12,13 +12,15 @@ Instructions
 2. Run the bash script with the command "bash run.sh".
 
 
-Tehtävässä käytetyt laittet: HP ProBook 655 G2 (Xubuntu 16.04 LTS x64) & Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
+Tehtävässä käytetyt laittet
+ HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)
+ Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
 
 
  
 Lähteet:
-https://github.com/terokarvinen/sirotin
-https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html
-https://github.com/saltstack/salt/blob/develop/doc/topics/tutorials/starting_states.rst
+ https://github.com/terokarvinen/sirotin
+ https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html
+ https://github.com/saltstack/salt/blob/develop/doc/topics/tutorials/starting_states.rst
