@@ -17,11 +17,7 @@ wget https://raw.githubusercontent.com/haapjuu/qwerty/master/run.sh
 bash run.sh
 ```
 
-
-
 <br/>
-<br/>
-
 <br/>
 
 Mumble palvelimen asennus itsessään oli yllättävän nopeaa ja helppoa. Suurimmat haasteet tehtävässä tulivat Githubin käyttämisen ja valmiin salt staten ajamiseen tarvittavan automaation opettelemisessa.
@@ -94,7 +90,7 @@ git config --global user.name "username"
 <br/>
 <br/>
 
-### **Tehtävässä käytetyt laittet**
+**Tehtävässä käytetyt laittet**
 
 &nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
@@ -102,7 +98,7 @@ git config --global user.name "username"
 <br/>
 <br/>
 
-**Lähteet:**
+**Lähteet**
 
 &nbsp;&nbsp;&nbsp;&nbsp;https://github.com/terokarvinen/sirotin<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;https://docs.saltstack.com/en/latest/topics/tutorials/quickstart.html<br/>
