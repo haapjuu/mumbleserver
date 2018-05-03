@@ -6,7 +6,7 @@ mumble:
 
 /etc/mumble-server.ini:
   file.managed:
-    - source: salt://mumble-server.ini
+    - source: salt://mumble/mumble-server.ini
 
 ufw-enable-mumble-port:
   cmd.run:

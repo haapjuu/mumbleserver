@@ -6,7 +6,8 @@ sudo apt-get -y install git salt-minion salt-master
 
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/haapjuu/qwerty
-sudo salt 'localhost' state.apply mumble
+cd qwerty/
+bash highstate.sh
 setxkbmap fi
 sudo apt-get -y purge salt-master
 sudo timedatectl set-timezone Europe/Helsinki
