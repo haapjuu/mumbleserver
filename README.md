@@ -18,7 +18,7 @@ bash run.sh
 ```
 
 
-#### **Tehtävässä käytetyt laittet**
+### **Tehtävässä käytetyt laittet**
 
 &nbsp;&nbsp;&nbsp;&nbsp;HP ProBook 655 G2 (Xubuntu 16.04 LTS x64)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;Virtuaalipalvelin Digital Oceanilta (Xubuntu 16.04 LTS x64)
@@ -40,9 +40,26 @@ sudo salt-call --local --file-root srv/salt/ --pillar-root srv/pillar/  state.ap
 Vielä lopuksi ajetaan muutamia asetuksia järjestelmään ja Githubiin
 ```
 setxkbmap fi
+```
+Vaihtaa näppäimistön layoutin suomenkieliseksi
+<br/>
+<br/>
+```
 sudo timedatectl set-timezone Europe/Helsinki
+```
+```
 git config --global credential.helper "cache --timeout=3600"
+```
+Githubin kirjautumistietojen kyselytiheyttä pienennetään
+<br/>
+<br/>
+```
 git config --global push.default simple
+```
+Muutetaan "git push" komennon logiikkaa yksinkertaisemmaksi
+<br/>
+<br/>
+```
 git config --global user.email "email"
 git config --global user.name "username"
 ```
