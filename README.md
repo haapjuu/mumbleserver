@@ -4,6 +4,7 @@
 
 For this little assignment the idea was to make a salt state that installs and configures a Mumble server and the necessary firewall port for the slave machine.
 
+esitys: 172.28.171.250
 
 ### **Instructions**
 
